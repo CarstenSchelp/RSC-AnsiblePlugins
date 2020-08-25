@@ -4,6 +4,6 @@
   tasks:
     - name: Create ansible-playbook-directory
       file:
-        path: /behnaz/{{ carstens_folder }}
+        path: /behnaz/{{ folder_name }}
         state: directory
         recurse: yes
